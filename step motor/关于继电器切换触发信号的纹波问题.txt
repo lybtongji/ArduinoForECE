@@ -1,0 +1,37 @@
+https://www.amobbs.com/thread-5631048-1-1.html
+
+https://www.amobbs.com/forum.php?mod=viewthread&tid=5717449
+
+https://www.google.com/search?q=arduino+interrupt+Ripple
+
+https://forum.arduino.cc/t/mega-interrupt-triggering-due-to-voltage-spike/577888
+
+https://forum.arduino.cc/t/pwm-leds-and-high-frequency-ripple-in-the-power-supply/610000
+
+https://forum.arduino.cc/t/can-arduino-read-this-pulse-train-with-attachinterrupt/206519/6
+
+relay rc filter
+
+https://www.homemade-circuits.com/prevent-relay-arcing-using-rc-snubber-circuits/
+
+https://blog.csdn.net/liudingqian/article/details/83933518
+
+https://www.eechina.com/tools/rc_filter_cutoff_frequency.html
+
+https://www.google.com/search?q=arduino+interrupt+debounce
+
+https://forum.arduino.cc/t/debouncing-an-interrupt-trigger/45110/14
+
+https://forum.arduino.cc/t/debouncing-pushbutton-switch-on-interrupt-pin/13874
+
+http://www.all-electric.com/schematic/debounce.htm
+
+https://forum.arduino.cc/t/how-do-you-debounce-a-button-used-for-interrupts/598486/5
+
+arduino interrupt rising falling debounce
+
+https://forum.arduino.cc/t/rising-interrupt-runs-on-both-push-and-release/437309
+
+https://stackoverflow.com/questions/52358664/arduino-interrupt-wont-ignore-falling-edge
+
+https://my.eng.utah.edu/~cs5780/debouncing.pdf
