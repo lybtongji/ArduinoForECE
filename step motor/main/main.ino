@@ -5,7 +5,7 @@
 #include <HopeDuino_UART.h>
 
 #define NOT_AN_INTERRUPT -1
-#define digitalPinToInterrupt(p)  ((p) == 2 ? 0 : ((p) == 3 ? 1 : NOT_AN_INTERRUPT))
+#define digitalPinToInterrupt(p) ((p) == 2 ? 0 : ((p) == 3 ? 1 : NOT_AN_INTERRUPT))
 
 buzzClass Buzz;
 uartClass uart;
@@ -21,9 +21,8 @@ const byte PIN_LED = 13;
 volatile byte state = 0;
 
 byte music[18] = {
-  SM_1, SM_2, SH_3, SM_1,
-  20,   20,   20,   20
-};
+    SM_1, SM_2, SH_3, SM_1,
+    20, 20, 20, 20};
 
 char cstr[16];
 
@@ -74,21 +73,23 @@ void loop()
   stepper.runSpeed();
 }
 
-void invert() {
+void invert()
+{
   state = 1 + state % 2;
-  switch (state) {
-    case 1:
-      stepper.disableOutputs();
-      // digitalWrite(PIN_ENABLE, HIGH);
-      break;
-    case 2:
-      stepper.setSpeed(-stepper.speed());
-      digitalWrite(PIN_LED, !digitalRead(PIN_LED));
-      stepper.enableOutputs();
-      // digitalWrite(PIN_ENABLE, LOW);
-      break;
-    default:
-      break;
+  switch (state)
+  {
+  case 1:
+    stepper.disableOutputs();
+    // digitalWrite(PIN_ENABLE, HIGH);
+    break;
+  case 2:
+    stepper.setSpeed(-stepper.speed());
+    digitalWrite(PIN_LED, !digitalRead(PIN_LED));
+    stepper.enableOutputs();
+    // digitalWrite(PIN_ENABLE, LOW);
+    break;
+  default:
+    break;
   }
 }
 
